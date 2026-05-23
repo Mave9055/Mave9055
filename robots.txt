@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mave9055.github.io/Mave9055/sitemap.xml
