@@ -14,6 +14,15 @@ This work is built around one practical idea:
 
 > People cannot interrupt a pattern they have never been taught to see.
 
+## Ownership, Control, and Certification Boundary
+
+Capitol Contracts LLC public-facing materials must use accurate role and certification language.
+
+- **William Dane Lingar** is the veteran majority owner and executive control authority for Capitol Contracts LLC.
+- **Daniel Bret Lingar is not a veteran** and should not be described as a veteran owner, SDVOSB owner, service-disabled veteran, CEO, President, or final-control authority.
+- Daniel Bret Lingar may be described in non-veteran support roles such as Director of Operations, Technical Lead, Curriculum Development Support, production support, or implementation support.
+- Capitol Contracts LLC has **not yet applied for SDVOSB certification** and should not be described as SDVOSB-certified, verified SDVOSB, approved SDVOSB, or certified veteran-owned unless certification is actually granted.
+
 ## Start Here
 
 - **[Start Here Repository Map](./START-HERE.md)** — guided map for procurement reviewers, pilot partners, readers, reviewers, and production users.
