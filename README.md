@@ -14,6 +14,8 @@ This work is built around one practical idea:
 
 > People cannot interrupt a pattern they have never been taught to see.
 
+**Contact:** [capitolcontracts@outlook.com](mailto:capitolcontracts@outlook.com)
+
 **Start here:**
 
 - **[Public Landing Page](https://mave9055.github.io/Mave9055/)** — plain-English overview for first-time visitors.
@@ -77,6 +79,8 @@ WRH materials are **not therapy**, **not medical advice**, **not legal advice**,
 ## Next Step
 
 First-time visitors should start with the **[Public Landing Page](https://mave9055.github.io/Mave9055/)** or the **[Repository Showcase](https://mave9055.github.io/Mave9055/repo-showcase.html)** before opening individual repositories.
+
+For inquiries, pilot conversations, capability materials, or implementation discussions: **[capitolcontracts@outlook.com](mailto:capitolcontracts@outlook.com)**
 
 ---
 
