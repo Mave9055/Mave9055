@@ -3,18 +3,18 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Capitol Contracts LLC / WRH Project System</title>
-  <meta name="description" content="Capitol Contracts LLC develops the What Really Happened (WRH) project system: non-clinical psychoeducational curriculum for recovery, veteran-support, reentry, peer-support, and institutional training partners." />
+  <title>WRH Project System | Capitol Contracts LLC</title>
+  <meta name="description" content="Structured trauma education with flow, language, and a clear path forward." />
   <style>
     :root {
       --bg: #ffffff;
-      --bg-soft: #f8f9fa;
-      --text: #1e293b;
-      --muted: #475569;
-      --border: #e2e8f0;
-      --border-strong: #cbd5e1;
-      --accent: #991b1b;
-      --accent-dark: #7f1d1d;
+      --soft: #f8fafc;
+      --text: #111827;
+      --muted: #374151;
+      --line: #d1d5db;
+      --strong: #9ca3af;
+      --accent: #1d4ed8;
+      --accent-dark: #1e40af;
       --max: 1180px;
     }
 
@@ -28,6 +28,8 @@
       font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
       font-size: 16px;
       line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
     }
 
     a { color: inherit; }
@@ -51,7 +53,7 @@
     }
 
     header {
-      border-bottom: 1px solid var(--border);
+      border-bottom: 1px solid var(--line);
       background: rgba(255,255,255,.98);
     }
 
@@ -69,8 +71,8 @@
       gap: 12px;
       text-decoration: none;
       color: var(--text);
-      font-weight: 800;
-      letter-spacing: -0.01em;
+      font-weight: 850;
+      letter-spacing: -0.02em;
     }
 
     .brand-mark {
@@ -79,10 +81,11 @@
       display: grid;
       place-items: center;
       border-radius: 10px;
-      background: var(--text);
-      color: #fff;
-      font-size: .8rem;
-      font-weight: 900;
+      border: 1px solid var(--strong);
+      background: #fff;
+      color: var(--text);
+      font-size: .78rem;
+      font-weight: 950;
     }
 
     .nav-links {
@@ -96,8 +99,8 @@
     .nav-links a {
       text-decoration: none;
       color: var(--muted);
-      font-size: .94rem;
-      font-weight: 700;
+      font-size: .88rem;
+      font-weight: 750;
     }
 
     .nav-links a:hover,
@@ -106,8 +109,8 @@
     main { background: var(--bg); }
 
     .hero {
-      padding: 88px 0 72px;
-      border-bottom: 1px solid var(--border);
+      padding: 96px 0 80px;
+      border-bottom: 1px solid var(--line);
     }
 
     .hero-grid {
@@ -130,21 +133,21 @@
     h1, h2, h3, p { margin-top: 0; }
 
     h1 {
-      max-width: 900px;
-      margin-bottom: 22px;
+      max-width: 940px;
+      margin-bottom: 24px;
       color: var(--text);
-      font-size: clamp(2.65rem, 5vw, 4.9rem);
-      line-height: .98;
-      letter-spacing: -0.055em;
-      font-weight: 900;
+      font-size: clamp(3rem, 6vw, 5.8rem);
+      line-height: .94;
+      letter-spacing: -0.065em;
+      font-weight: 950;
     }
 
     .lead {
       max-width: 650px;
       margin-bottom: 18px;
       color: var(--muted);
-      font-size: 1.15rem;
-      line-height: 1.7;
+      font-size: 1.16rem;
+      line-height: 1.65;
     }
 
     .hero-actions,
@@ -162,12 +165,13 @@
       min-height: 46px;
       padding: 0 18px;
       border-radius: 10px;
-      border: 1px solid var(--border-strong);
+      border: 1px solid var(--strong);
       color: var(--text);
       background: #fff;
       text-decoration: none;
-      font-size: .95rem;
-      font-weight: 800;
+      font-size: .93rem;
+      font-weight: 850;
+      white-space: nowrap;
     }
 
     .button.primary {
@@ -180,15 +184,15 @@
     .button.primary:focus { background: var(--accent-dark); }
 
     .hero-aside {
-      padding: 26px;
-      border: 1px solid var(--border);
+      padding: 24px;
+      border: 1px solid var(--line);
       border-radius: 16px;
-      background: var(--bg-soft);
+      background: var(--soft);
     }
 
     .hero-aside h2 {
       margin-bottom: 10px;
-      font-size: 1.25rem;
+      font-size: 1.2rem;
       line-height: 1.2;
       letter-spacing: -0.02em;
     }
@@ -213,7 +217,7 @@
       justify-content: space-between;
       gap: 14px;
       padding-top: 10px;
-      border-top: 1px solid var(--border);
+      border-top: 1px solid var(--line);
       color: var(--muted);
       font-size: .92rem;
     }
@@ -222,7 +226,7 @@
 
     .section {
       padding: 76px 0;
-      border-bottom: 1px solid var(--border);
+      border-bottom: 1px solid var(--line);
     }
 
     .section-head {
@@ -236,10 +240,10 @@
     h2 {
       margin-bottom: 0;
       color: var(--text);
-      font-size: clamp(2rem, 3vw, 3rem);
-      line-height: 1.08;
-      letter-spacing: -0.04em;
-      font-weight: 900;
+      font-size: clamp(2rem, 3vw, 3.2rem);
+      line-height: 1.04;
+      letter-spacing: -0.045em;
+      font-weight: 950;
     }
 
     .section-head p {
@@ -247,70 +251,47 @@
       margin-bottom: 0;
       color: var(--muted);
       font-size: 1.05rem;
-      line-height: 1.7;
+      line-height: 1.65;
     }
 
-    .three-column {
+    .pipeline {
       display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 24px;
-    }
-
-    .plain-block {
-      padding-top: 20px;
-      border-top: 3px solid var(--text);
-    }
-
-    .plain-block h3 {
-      margin-bottom: 10px;
-      font-size: 1.18rem;
-      line-height: 1.25;
-      letter-spacing: -0.02em;
-    }
-
-    .plain-block p {
-      max-width: 650px;
-      margin-bottom: 0;
-      color: var(--muted);
-    }
-
-    .timeline {
-      display: grid;
-      grid-template-columns: repeat(6, minmax(0, 1fr));
-      gap: 0;
-      border: 1px solid var(--border);
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      border: 1px solid var(--line);
       border-radius: 16px;
       overflow: hidden;
       background: #fff;
     }
 
-    .step {
+    .pillar {
       min-height: 230px;
       padding: 24px;
-      border-right: 1px solid var(--border);
+      border-right: 1px solid var(--line);
       display: flex;
       flex-direction: column;
     }
 
-    .step:last-child { border-right: 0; }
+    .pillar:last-child { border-right: 0; }
 
-    .step-number {
-      margin-bottom: 38px;
+    .pillar-number {
+      margin-bottom: 34px;
       color: var(--muted);
-      font-size: .78rem;
-      font-weight: 900;
+      font-size: .76rem;
+      font-weight: 950;
       letter-spacing: .12em;
       text-transform: uppercase;
     }
 
-    .step h3 {
+    .pillar h3 {
       margin-bottom: 10px;
+      color: var(--text);
       font-size: 1.05rem;
       line-height: 1.2;
       letter-spacing: -0.02em;
+      text-transform: uppercase;
     }
 
-    .step p {
+    .pillar p {
       max-width: 650px;
       margin-bottom: 0;
       color: var(--muted);
@@ -320,25 +301,27 @@
 
     .cards {
       display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
+      grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 22px;
     }
 
     .card {
-      min-height: 360px;
+      min-height: 320px;
       padding: 24px;
-      border: 1px solid var(--border);
+      border: 1px solid var(--line);
       border-radius: 16px;
       background: #fff;
       display: flex;
       flex-direction: column;
     }
 
+    .card.wide { grid-column: span 2; }
+
     .card-tag {
       margin-bottom: 18px;
       color: var(--muted);
       font-size: .76rem;
-      font-weight: 900;
+      font-weight: 950;
       letter-spacing: .12em;
       text-transform: uppercase;
     }
@@ -346,9 +329,9 @@
     .card h3 {
       margin-bottom: 12px;
       color: var(--text);
-      font-size: 1.26rem;
-      line-height: 1.2;
-      letter-spacing: -0.025em;
+      font-size: 1.42rem;
+      line-height: 1.16;
+      letter-spacing: -0.03em;
     }
 
     .card p {
@@ -363,35 +346,46 @@
       padding-top: 22px;
     }
 
-    .scope-box {
-      padding: 26px;
-      border: 1px solid var(--border);
-      border-left: 6px solid var(--text);
-      border-radius: 16px;
-      background: var(--bg-soft);
+    .business-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 22px;
+      align-items: stretch;
     }
 
-    .scope-box h2 {
+    .business-box,
+    .scope-box {
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: var(--soft);
+    }
+
+    .business-box h3,
+    .scope-box h3 {
       margin-bottom: 10px;
-      font-size: 1.45rem;
+      color: var(--text);
+      font-size: 1.25rem;
+      line-height: 1.2;
       letter-spacing: -0.02em;
     }
 
+    .business-box p,
     .scope-box p {
-      max-width: 800px;
+      max-width: 650px;
       margin-bottom: 0;
       color: var(--muted);
     }
 
     footer {
       background: var(--text);
-      color: #e2e8f0;
-      padding: 40px 0;
+      color: #e5e7eb;
+      padding: 42px 0;
     }
 
     .footer-grid {
       display: grid;
-      grid-template-columns: 1.3fr .7fr;
+      grid-template-columns: 1.2fr .8fr;
       gap: 36px;
       align-items: start;
     }
@@ -405,7 +399,7 @@
 
     footer p {
       max-width: 650px;
-      color: #cbd5e1;
+      color: #d1d5db;
       margin-bottom: 0;
     }
 
@@ -418,7 +412,7 @@
     .footer-links a {
       color: #fff;
       text-decoration: none;
-      font-weight: 700;
+      font-weight: 750;
     }
 
     .footer-links a:hover,
@@ -427,60 +421,31 @@
     @media (max-width: 1080px) {
       .hero-grid,
       .section-head,
-      .footer-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .timeline {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-      }
-
-      .step {
-        border-right: 0;
-        border-bottom: 1px solid var(--border);
-      }
-
-      .step:nth-last-child(-n + 2) { border-bottom: 0; }
-
-      .cards {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-      }
+      .footer-grid,
+      .business-grid { grid-template-columns: 1fr; }
+      .pipeline { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .pillar { border-right: 0; border-bottom: 1px solid var(--line); }
+      .pillar:nth-child(odd) { border-right: 1px solid var(--line); }
+      .pillar:last-child { grid-column: span 2; border-right: 0; border-bottom: 0; }
     }
 
-    @media (max-width: 720px) {
+    @media (max-width: 760px) {
       .shell { width: min(calc(100% - 28px), var(--max)); }
-
-      .nav {
-        align-items: flex-start;
-        flex-direction: column;
-      }
-
-      .nav-links {
-        justify-content: flex-start;
-        gap: 14px;
-      }
-
+      .nav { align-items: flex-start; flex-direction: column; }
+      .nav-links { justify-content: flex-start; gap: 14px; }
       .hero { padding: 56px 0; }
       .section { padding: 56px 0; }
-
-      h1 { font-size: 2.65rem; }
+      h1 { font-size: 2.75rem; }
       h2 { font-size: 2rem; }
-
-      .three-column,
-      .timeline,
-      .cards {
-        grid-template-columns: 1fr;
-      }
-
-      .step,
-      .step:nth-last-child(-n + 2) {
-        min-height: auto;
-        border-bottom: 1px solid var(--border);
-      }
-
-      .step:last-child { border-bottom: 0; }
-      .step-number { margin-bottom: 18px; }
-      .card { min-height: auto; }
+      .pipeline,
+      .cards { grid-template-columns: 1fr; }
+      .pillar,
+      .pillar:nth-child(odd),
+      .pillar:last-child { grid-column: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+      .pillar:last-child { border-bottom: 0; }
+      .pillar-number { margin-bottom: 18px; }
+      .card,
+      .card.wide { grid-column: auto; min-height: auto; }
       .button { width: 100%; }
     }
   </style>
@@ -490,14 +455,14 @@
 
   <header>
     <div class="shell nav" role="navigation" aria-label="Main navigation">
-      <a class="brand" href="#">
+      <a class="brand" href="./index.html">
         <span class="brand-mark" aria-hidden="true">WRH</span>
         <span>Capitol Contracts LLC</span>
       </a>
       <div class="nav-links">
-        <a href="#about">About</a>
-        <a href="#path">System Path</a>
+        <a href="#pipeline">Five Pillars</a>
         <a href="#repos">Project Hubs</a>
+        <a href="#business">Business</a>
         <a href="#scope">Scope</a>
         <a href="mailto:capitolcontracts@outlook.com">Contact</a>
       </div>
@@ -508,100 +473,60 @@
     <section class="hero">
       <div class="shell hero-grid">
         <div>
-          <span class="kicker">Non-Clinical Psychoeducational Curriculum</span>
+          <span class="kicker">WRH Project System</span>
           <h1>Structured trauma education with flow, language, and a clear path forward.</h1>
-          <p class="lead">
-            Capitol Contracts LLC develops the What Really Happened project system: non-clinical education that explains survival patterns, addiction cycles, freeze responses, shame loops, and nervous-system adaptation as understandable mechanisms.
-          </p>
-          <p class="lead">
-            The ecosystem connects a memoir, public counter-narrative articles, a 5-week introduction, a 30-session pilot package, and a full 75-session master curriculum for institutional review and implementation planning.
-          </p>
+          <p class="lead">A connected five-pillar ecosystem moving from source material to public education, curriculum structure, and pilot deployment.</p>
           <div class="hero-actions" aria-label="Primary actions">
             <a class="button primary" href="./repo-showcase.html">View Repository Showcase</a>
-            <a class="button" href="https://github.com/Mave9055/wrh-master-curriculum">Open Curriculum</a>
+            <a class="button" href="https://mave9055.github.io/wrh-master-curriculum/">Open Master Curriculum</a>
           </div>
         </div>
 
         <aside class="hero-aside" aria-label="System summary">
-          <h2>Designed for serious review.</h2>
-          <p>
-            Built for programs, advisors, reviewers, and institutional partners that need structured language without therapy-style disclosure requirements.
-          </p>
+          <h2>Primary structure</h2>
+          <p>The public system is organized around five assets. Capitol Contracts LLC is the business and implementation vehicle.</p>
           <ul class="meta-list">
-            <li><strong>Primary use</strong><span>Education</span></li>
-            <li><strong>Delivery frame</strong><span>Non-clinical</span></li>
-            <li><strong>Core path</strong><span>Memoir → Curriculum</span></li>
+            <li><strong>System</strong><span>WRH</span></li>
+            <li><strong>Format</strong><span>Non-clinical education</span></li>
+            <li><strong>Primary path</strong><span>Memoir to Pilot</span></li>
             <li><strong>Contact</strong><span>capitolcontracts@outlook.com</span></li>
           </ul>
         </aside>
       </div>
     </section>
 
-    <section class="section" id="about">
+    <section class="section" id="pipeline">
       <div class="shell">
         <div class="section-head">
-          <h2>One system, multiple entry points.</h2>
-          <p>
-            WRH is organized so different audiences can enter at the right depth. Everyday readers can begin with the memoir and articles. Organizations can begin with the pilot package or master curriculum.
-          </p>
+          <h2>Five-pillar ecosystem.</h2>
+          <p>The WRH content system is separate from the business layer. The project path stays focused on the five public assets.</p>
         </div>
 
-        <div class="three-column">
-          <div class="plain-block">
-            <h3>Human source</h3>
-            <p>The memoir provides the lived-experience foundation and emotional truth behind the larger system.</p>
-          </div>
-          <div class="plain-block">
-            <h3>Public translation</h3>
-            <p>The articles translate shame, freeze, addiction, and survival responses into plain-language counter-narratives.</p>
-          </div>
-          <div class="plain-block">
-            <h3>Institutional structure</h3>
-            <p>The curriculum packages turn the language into repeatable, reviewable, non-clinical education tools.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="path">
-      <div class="shell">
-        <div class="section-head">
-          <h2>The six-step system path.</h2>
-          <p>
-            This sequence keeps the ecosystem understandable. Each piece has a role, from story to public language to field-tested implementation and full curriculum architecture.
-          </p>
-        </div>
-
-        <div class="timeline" aria-label="Six-step WRH system path">
-          <article class="step">
-            <div class="step-number">Step 01</div>
-            <h3>Memoir</h3>
-            <p>From the Storm to the Fire provides the source story and lived-experience foundation.</p>
+        <div class="pipeline" aria-label="Five WRH ecosystem pillars">
+          <article class="pillar">
+            <div class="pillar-number">Pillar 01</div>
+            <h3>From the Storm to the Fire</h3>
+            <p>The memoir base and source material for the larger WRH system.</p>
           </article>
-          <article class="step">
-            <div class="step-number">Step 02</div>
-            <h3>Articles</h3>
-            <p>Counter-narratives translate survival patterns into language readers can recognize.</p>
+          <article class="pillar">
+            <div class="pillar-number">Pillar 02</div>
+            <h3>The Insight Articles</h3>
+            <p>The public analytical layer and plain-language article system.</p>
           </article>
-          <article class="step">
-            <div class="step-number">Step 03</div>
-            <h3>Top 10 Core</h3>
-            <p>A five-week introductory track for first exposure to the WRH framework.</p>
+          <article class="pillar">
+            <div class="pillar-number">Pillar 03</div>
+            <h3>26 Laws of Survival</h3>
+            <p>The survival-law framework and low-barrier entry map.</p>
           </article>
-          <article class="step">
-            <div class="step-number">Step 04</div>
-            <h3>Pilot Package</h3>
-            <p>A thirty-session structure for field testing, review, and implementation planning.</p>
-          </article>
-          <article class="step">
-            <div class="step-number">Step 05</div>
+          <article class="pillar">
+            <div class="pillar-number">Pillar 04</div>
             <h3>Master Curriculum</h3>
-            <p>The full seventy-five-session architecture for deeper program adoption.</p>
+            <p>The full educational framework and source-of-truth curriculum structure.</p>
           </article>
-          <article class="step">
-            <div class="step-number">Step 06</div>
-            <h3>Capitol Contracts</h3>
-            <p>The business and implementation vehicle for partner conversations and public materials.</p>
+          <article class="pillar">
+            <div class="pillar-number">Pillar 05</div>
+            <h3>WRH Pilot Deployment Package</h3>
+            <p>The package for review, testing, and deployment planning.</p>
           </article>
         </div>
       </div>
@@ -611,38 +536,66 @@
       <div class="shell">
         <div class="section-head">
           <h2>Primary project hubs.</h2>
-          <p>
-            These are the cleanest public entry points for first-time visitors, reviewers, program leaders, and institutional buyers.
-          </p>
+          <p>Clean public entry points for reviewers, advisors, partners, and first-time visitors.</p>
         </div>
 
         <div class="cards">
           <article class="card">
-            <div class="card-tag">Start Here</div>
+            <div class="card-tag">Pillar 01</div>
+            <h3>From the Storm to the Fire</h3>
+            <p>Memoir and source-material foundation.</p>
+            <div class="button-row"><a class="button primary" href="https://mave9055.github.io/ebook-manuscript/">Open Book / Articles</a></div>
+          </article>
+
+          <article class="card">
+            <div class="card-tag">Pillar 02</div>
+            <h3>The Insight Articles</h3>
+            <p>Public counter-narrative article system.</p>
+            <div class="button-row"><a class="button primary" href="https://github.com/Mave9055/ebook-manuscript">Open Repository</a></div>
+          </article>
+
+          <article class="card">
+            <div class="card-tag">Pillar 03</div>
+            <h3>26 Laws of Survival</h3>
+            <p>Entry-level framework and introductory path.</p>
+            <div class="button-row"><a class="button primary" href="https://mave9055.github.io/top-10-core/">Open Framework</a></div>
+          </article>
+
+          <article class="card">
+            <div class="card-tag">Pillar 04</div>
+            <h3>Master Curriculum</h3>
+            <p>Full WRH curriculum architecture.</p>
+            <div class="button-row"><a class="button primary" href="https://mave9055.github.io/wrh-master-curriculum/">Open Curriculum</a></div>
+          </article>
+
+          <article class="card wide">
+            <div class="card-tag">Pillar 05</div>
+            <h3>WRH Pilot Deployment Package</h3>
+            <p>Deployment asset for pilot review, implementation planning, and partner conversations.</p>
+            <div class="button-row"><a class="button primary" href="https://github.com/Mave9055/WRH-Pilot-Deployment-Package">Launch Package</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="business">
+      <div class="shell">
+        <div class="section-head">
+          <h2>Business layer.</h2>
+          <p>Capitol Contracts LLC sits under the project system as the business, implementation, and partner-facing vehicle.</p>
+        </div>
+
+        <div class="business-grid">
+          <article class="business-box">
+            <h3>Capitol Contracts LLC</h3>
+            <p>Business home for partner conversations, implementation planning, and public-facing materials connected to WRH.</p>
+            <div class="button-row"><a class="button primary" href="https://capitolcontractsllc.com">Open Site</a></div>
+          </article>
+
+          <article class="business-box">
             <h3>Repository Showcase</h3>
-            <p>The fastest overview of the ecosystem, the major repositories, and how the pieces connect.</p>
+            <p>Full GitHub ecosystem overview for reviewers who need to see the complete repository structure.</p>
             <div class="button-row"><a class="button primary" href="./repo-showcase.html">View Showcase</a></div>
-          </article>
-
-          <article class="card">
-            <div class="card-tag">Flagship Asset</div>
-            <h3>WRH Master Curriculum</h3>
-            <p>The full seventy-five-session curriculum and strongest institutional review path.</p>
-            <div class="button-row"><a class="button primary" href="https://github.com/Mave9055/wrh-master-curriculum">Open Curriculum</a></div>
-          </article>
-
-          <article class="card">
-            <div class="card-tag">Implementation</div>
-            <h3>WRH Pilot Package</h3>
-            <p>The thirty-session deployment package for field testing and partner review.</p>
-            <div class="button-row"><a class="button primary" href="https://github.com/Mave9055/WRH-Pilot-Deployment-Package">Open Pilot</a></div>
-          </article>
-
-          <article class="card">
-            <div class="card-tag">Public Language</div>
-            <h3>The Rescue Boat</h3>
-            <p>Public counter-narrative articles that translate trauma and survival patterns into readable language.</p>
-            <div class="button-row"><a class="button primary" href="https://mave9055.github.io/ebook-manuscript/">Open Articles</a></div>
           </article>
         </div>
       </div>
@@ -651,10 +604,8 @@
     <section class="section" id="scope">
       <div class="shell">
         <div class="scope-box">
-          <h2>Scope Boundary</h2>
-          <p>
-            WRH materials are non-clinical psychoeducational resources. They are not therapy, medical care, diagnosis, crisis care, legal advice, or a substitute for licensed professional support.
-          </p>
+          <h3>Scope Boundary</h3>
+          <p>WRH materials are non-clinical psychoeducational resources. They are not therapy, medical care, diagnosis, crisis care, legal advice, or a substitute for licensed professional support.</p>
         </div>
       </div>
     </section>
@@ -664,12 +615,13 @@
     <div class="shell footer-grid">
       <div>
         <h2>Capitol Contracts LLC / WRH Project System</h2>
-        <p>Structured non-clinical trauma education for recovery, veteran-support, reentry, peer-support, and institutional training partners.</p>
+        <p>Structured non-clinical trauma education with a clear five-pillar project architecture.</p>
       </div>
       <nav class="footer-links" aria-label="Footer links">
         <a href="./repo-showcase.html">Repository Showcase</a>
-        <a href="https://github.com/Mave9055/wrh-master-curriculum">Master Curriculum</a>
-        <a href="https://github.com/Mave9055/capitol-contracts">Capitol Contracts Repository</a>
+        <a href="https://mave9055.github.io/wrh-master-curriculum/">Master Curriculum</a>
+        <a href="https://github.com/Mave9055/WRH-Pilot-Deployment-Package">Pilot Deployment Package</a>
+        <a href="https://capitolcontractsllc.com">Capitol Contracts LLC</a>
         <a href="mailto:capitolcontracts@outlook.com">capitolcontracts@outlook.com</a>
       </nav>
     </div>
