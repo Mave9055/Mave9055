@@ -4,15 +4,30 @@
   <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663251514784/peyAAcfVglzoCzKU.png" alt="Capitol Contracts LLC Logo" width="360">
 </p>
 
-## About This Work
+## Public Front Door
 
-Capitol Contracts LLC develops structured, non-clinical psychoeducational materials that translate trauma, addiction, freeze responses, shame cycles, nervous-system adaptation, and executive-function disruption into plain-language tools for public education, peer-support settings, recovery environments, veteran-support programs, and institutional review.
+**Capitol Contracts LLC develops structured, non-clinical psychoeducational curriculum for recovery, veteran-support, reentry, peer-support, and institutional training partners.**
 
-The central project is **What Really Happened (WRH)**: a mechanism-first curriculum and writing system designed to help people understand survival patterns without requiring trauma disclosure, exposure-based processing, diagnosis, or therapy-style participation.
+The central project is **What Really Happened (WRH)**: a mechanism-first curriculum and writing system designed to help people understand trauma responses, addiction patterns, freeze responses, shame cycles, nervous-system adaptation, and executive-function disruption without requiring trauma disclosure, exposure-based processing, diagnosis, or therapy-style participation.
 
 This work is built around one practical idea:
 
 > People cannot interrupt a pattern they have never been taught to see.
+
+**Start here:**
+
+- **[Public Landing Page](https://mave9055.github.io/Mave9055/)** — plain-English overview for first-time visitors.
+- **[Repository Showcase](https://mave9055.github.io/Mave9055/repo-showcase.html)** — curated map of the strongest public repositories.
+- **[Start Here Repository Map](./START-HERE.md)** — guided map for procurement reviewers, pilot partners, readers, reviewers, and production users.
+- **[Capitol Contracts Website](https://capitolcontractsllc.com)** — business website and public company front door.
+
+## What This Is
+
+The WRH project system connects:
+
+**Memoir** → **Public Articles** → **Top 10 Core** → **Pilot Deployment Package** → **WRH Master Curriculum** → **Capitol Contracts LLC**
+
+The memoir provides the lived-experience source material. The articles translate the ideas into public language. Top 10 Core introduces the framework in a shorter 5-week structure. The pilot package supports implementation testing. The 75-session master curriculum is the full structured education system.
 
 ## Ownership, Control, and Certification Boundary
 
@@ -22,12 +37,6 @@ Capitol Contracts LLC public-facing materials must use accurate role and certifi
 - **Daniel Bret Lingar is not a veteran** and should not be described as a veteran owner, SDVOSB owner, service-disabled veteran, CEO, President, or final-control authority.
 - Daniel Bret Lingar may be described in non-veteran support roles such as Director of Operations, Technical Lead, Curriculum Development Support, production support, or implementation support.
 - Capitol Contracts LLC has **not yet applied for SDVOSB certification** and should not be described as SDVOSB-certified, verified SDVOSB, approved SDVOSB, or certified veteran-owned unless certification is actually granted.
-
-## Start Here
-
-- **[Start Here Repository Map](./START-HERE.md)** — guided map for procurement reviewers, pilot partners, readers, reviewers, and production users.
-- **[Repository Consolidation Plan](./REPOSITORY-CONSOLIDATION.md)** — active cleanup plan defining what stays public, what merges, and what should be archived or kept private.
-- **[Repository Showcase Webpage](./repo-showcase.html)** — visual landing page for the top WRH, memoir, curriculum, pilot, article, and production repositories.
 
 ## Official Public Repository Structure
 
@@ -64,6 +73,10 @@ The cleanup rule is simple:
 ## Scope Boundary
 
 WRH materials are **not therapy**, **not medical advice**, **not legal advice**, and **not a replacement for licensed clinical care**. The work is designed as non-clinical education, language-building, pattern recognition, facilitator support, and implementation documentation.
+
+## Next Step
+
+First-time visitors should start with the **[Public Landing Page](https://mave9055.github.io/Mave9055/)** or the **[Repository Showcase](https://mave9055.github.io/Mave9055/repo-showcase.html)** before opening individual repositories.
 
 ---
 
