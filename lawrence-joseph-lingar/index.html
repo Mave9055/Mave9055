@@ -31,7 +31,7 @@
     .subtitle { max-width: 760px; color: var(--muted); font-size: clamp(1.05rem, 2vw, 1.3rem); margin-top: 22px; }
     .grid { display: grid; grid-template-columns: minmax(0, 1fr) 330px; gap: 28px; margin-top: 34px; align-items: start; }
     .card { background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.025)); border: 1px solid var(--line); border-radius: 18px; padding: 24px; box-shadow: 0 20px 70px rgba(0,0,0,.35); }
-    .clip img { width: 100%; height: auto; display: block; border-radius: 10px; border: 1px solid var(--line); filter: grayscale(100%); }
+    .clip img { width: 100%; max-width: 520px; height: auto; display: block; border-radius: 10px; border: 1px solid var(--line); filter: grayscale(100%); margin: 0 auto; }
     h2 { color: var(--gold); margin: 0 0 12px; font-size: 1.45rem; }
     .facts { list-style: none; padding: 0; margin: 0; font-family: Arial, sans-serif; }
     .facts li { border-top: 1px solid var(--soft); padding: 12px 0; color: var(--muted); }
@@ -55,9 +55,9 @@
 
     <section class="grid" aria-label="Memorial record">
       <article class="card clip">
-        <h2>Newspaper Clipping</h2>
-        <img alt="Newspaper clipping for Private Lawrence Joseph Lingar, killed in action" src="../assets/lawrence-joseph-lingar-clipping.jpg" />
-        <p class="note">Source image uploaded as: <strong>Times_Record_1943_02_28_16 (1).jpg</strong>.</p>
+        <h2>Portrait from the Clipping</h2>
+        <img alt="Portrait of Private Lawrence Joseph Lingar from newspaper clipping" src="../assets/lawrence-joseph-lingar-portrait.svg" />
+        <p class="note">Portrait cropped from the uploaded newspaper clipping: <strong>Times_Record_1943_02_28_16 (1).jpg</strong>.</p>
       </article>
 
       <aside class="card">
